@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{73CC7DBF-3529-462A-BD0C-E73F617621D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3D61ADFC-5FFA-420A-A81A-E23C5E72D89B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolver.Api", "src\MazeSolver.Api\MazeSolver.Api.csproj", "{FB04CE5D-1976-45EA-94A1-015425FB9EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolver.Application", "src\MazeSolver.Application\MazeSolver.Application.csproj", "{EDC4990D-BB5C-41F1-A1AF-96F58E538293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolver.Domain", "src\MazeSolver.Domain\MazeSolver.Domain.csproj", "{B23F24DC-7BFA-4668-91D7-129138A24CEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolver.SharedKernel", "src\MazeSolver.SharedKernel\MazeSolver.SharedKernel.csproj", "{32A9F39E-3BA5-44DA-B809-357D28BD7965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MazeSolver.Infrastructure", "src\MazeSolver.Infrastructure\MazeSolver.Infrastructure.csproj", "{047B04C4-5DE3-44C3-93DD-D379515DC123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{2E383A53-7BF1-44A1-BB13-B48BB1D121D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB04CE5D-1976-45EA-94A1-015425FB9EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB04CE5D-1976-45EA-94A1-015425FB9EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB04CE5D-1976-45EA-94A1-015425FB9EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB04CE5D-1976-45EA-94A1-015425FB9EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDC4990D-BB5C-41F1-A1AF-96F58E538293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC4990D-BB5C-41F1-A1AF-96F58E538293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC4990D-BB5C-41F1-A1AF-96F58E538293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC4990D-BB5C-41F1-A1AF-96F58E538293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23F24DC-7BFA-4668-91D7-129138A24CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23F24DC-7BFA-4668-91D7-129138A24CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23F24DC-7BFA-4668-91D7-129138A24CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23F24DC-7BFA-4668-91D7-129138A24CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32A9F39E-3BA5-44DA-B809-357D28BD7965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A9F39E-3BA5-44DA-B809-357D28BD7965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A9F39E-3BA5-44DA-B809-357D28BD7965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A9F39E-3BA5-44DA-B809-357D28BD7965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{047B04C4-5DE3-44C3-93DD-D379515DC123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{047B04C4-5DE3-44C3-93DD-D379515DC123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{047B04C4-5DE3-44C3-93DD-D379515DC123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{047B04C4-5DE3-44C3-93DD-D379515DC123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E383A53-7BF1-44A1-BB13-B48BB1D121D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E383A53-7BF1-44A1-BB13-B48BB1D121D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E383A53-7BF1-44A1-BB13-B48BB1D121D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E383A53-7BF1-44A1-BB13-B48BB1D121D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB04CE5D-1976-45EA-94A1-015425FB9EA9} = {3D61ADFC-5FFA-420A-A81A-E23C5E72D89B}
+		{EDC4990D-BB5C-41F1-A1AF-96F58E538293} = {3D61ADFC-5FFA-420A-A81A-E23C5E72D89B}
+		{B23F24DC-7BFA-4668-91D7-129138A24CEB} = {3D61ADFC-5FFA-420A-A81A-E23C5E72D89B}
+		{32A9F39E-3BA5-44DA-B809-357D28BD7965} = {3D61ADFC-5FFA-420A-A81A-E23C5E72D89B}
+		{047B04C4-5DE3-44C3-93DD-D379515DC123} = {3D61ADFC-5FFA-420A-A81A-E23C5E72D89B}
+		{2E383A53-7BF1-44A1-BB13-B48BB1D121D7} = {73CC7DBF-3529-462A-BD0C-E73F617621D5}
+	EndGlobalSection
+EndGlobal
